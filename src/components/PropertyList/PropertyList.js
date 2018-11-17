@@ -18,7 +18,6 @@ class PropertyList extends Component {
             properties: resData,
             isLoading: false 
         })
-        console.log(resData.data[0]['propertyAge'])
       })
       // Catch any errors we hit and update the app
       .catch(error => this.setState({ error, isLoading: false }));   

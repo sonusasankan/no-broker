@@ -1,0 +1,18 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.slick-prev:before, .slick-next:before{
+    color: #fd3434;
+}
+.nb-card{
+    margin-bottom: 10px;
+}
+.furnished-icon{
+    width: 20px;
+    opacity: 0.8;
+    margin-right: 10px;
+}
+
+.nb_property-name{
+    min-height: 110px;
+}
